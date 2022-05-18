@@ -54,7 +54,6 @@ See Installing add-ons in Splunk Add-Ons for detailed instructions describing ho
 
 - [Single-instance Splunk Enterprise](http://docs.splunk.com/Documentation/AddOns/released/Overview/Singleserverinstall)
 - [Distributed Splunk Enterprise](http://docs.splunk.com/Documentation/AddOns/released/Overview/Distributedinstall)
-- Splunk Cloud - **Currently unsupported**, will likely be added later if there is popular demand.
 
 ### Distributed installation of this add-on
 
