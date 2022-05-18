@@ -1,8 +1,8 @@
-# Technical Add-on for Greenbone Vulnerability Manager
+# Greenbone Vulnerability Manager Add-on for Splunk
 
 ## Overview
 
-### About the Technical Add-on for Greenbone Vulnerability Manager
+### About the Greenbone Vulnerability Manager Add-on for Splunk
 
 |                       |                                                         |
 |-----------------------|---------------------------------------------------------|
@@ -10,16 +10,16 @@
 | Vendor Products       | Greenbone Community Edition (GCE). Others are untested. |
 | Visible in Splunk Web | No.                                                     |
 
-The **Technical Add-on for Greenbone Vulnerability Manager** collects vulnerability scan and operational log data from Greenbone Vulnerability Manager (GVM). You can install the Add-on on a forwarder to send data from GVM to a Splunk Enterprise indexer or group of indexers. You can also use the add-on to provide data for other apps, such as Splunk Enterprise Security.
+The **Greenbone Vulnerability Manager Add-on for Splunk** collects vulnerability scan and operational log data from Greenbone Vulnerability Manager (GVM). You can install the Add-on on a forwarder to send data from GVM to a Splunk Enterprise indexer or group of indexers. You can also use the add-on to provide data for other apps, such as Splunk Enterprise Security.
 
-The **Technical Add-on for Greenbone Vulnerability Manager** collects the following data using file inputs:
+The **Greenbone Vulnerability Manager Add-on for Splunk** collects the following data using file inputs:
 
 - Vulnerability Scan results sent from GVM to Splunk as scan tasks are completed.
 - Changes to various GVM services log files in the `/var/log/gvm` directory and subdirectories.
 
-### Source types for the Technical Add-on for Greenbone Vulnerability Manager
+### Source types for the Greenbone Vulnerability Manager Add-on for Splunk
 
-The **Technical Add-on for Greenbone Vulnerability Manager** provides index-time, search-time and CIM normalization for GVM vulnerability scan results, authentication, tasks and operational data in the following formats:
+The **Greenbone Vulnerability Manager Add-on for Splunk** provides index-time, search-time and CIM normalization for GVM vulnerability scan results, authentication, tasks and operational data in the following formats:
 
 | Source Type                | Description                                             | CIM Data Models    |
 |----------------------------|---------------------------------------------------------|--------------------|
@@ -41,9 +41,9 @@ This version of the add-on is compatible with the following platform, OS and CIM
 
 ## Installation
 
-### Install the Technical Add-on for Greenbone Vulnerability Manager
+### Install the Greenbone Vulnerability Manager Add-on for Splunk
 
-You can install the **Technical Add-on for Greenbone Vulnerability Manager** with Splunk Web or from the command line. You can install the add-on onto any type of Splunk Enterprise instance (indexer, search head, or forwarder).
+You can install the **Greenbone Vulnerability Manager Add-on for Splunk** with Splunk Web or from the command line. You can install the add-on onto any type of Splunk Enterprise instance (indexer, search head, or forwarder).
 
 1. Download the add-on from [Github](https://github.com/ccloutier-splunk/TA-gvm/releases) or alternatively clone the project using your `git` client.
 2. Determine where and how to install this add-on in your deployment.
@@ -80,9 +80,9 @@ This table provides a quick reference for the compatibility of this add-on with 
 
 ## Configuration
 
-### Enable data and scripted inputs for the Technical Add-on for Greenbone Vulnerability Manager
+### Enable data and scripted inputs for the Greenbone Vulnerability Manager Add-on for Splunk
 
-After you have installed the **Technical Add-on for Greenbone Vulnerability Manager**, you must enable the data and network inputs within the add-on so that it collects data from your GVM environment.
+After you have installed the **Greenbone Vulnerability Manager Add-on for Splunk**, you must enable the data and network inputs within the add-on so that it collects data from your GVM environment.
 You must enable the inputs using the configuration files.
 
 > Note: When you configure data and scripted inputs using configuration files, copy only the input stanzas whose configurations you want to change. Do not copy the entire file, as those changes persist even after an upgrade.
@@ -97,7 +97,7 @@ You must enable the inputs using the configuration files.
 
 The recommended approach is to deploy the **configured** add-on to the relevant nodes using a **Deployment Server**.  
 
-### (Optional) Configure the Technical Add-on for Greenbone Vulnerability Manager to send data to another index
+### (Optional) Configure the Greenbone Vulnerability Manager Add-on for Splunk to send data to another index
 
 You can (and likely should in most cases) send the collected data to a dedicated Splunk index.  
 This can be achieved by creating the relevant index on your indexers and then adding:
