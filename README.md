@@ -6,7 +6,7 @@
 
 |                       |                                                         |
 |-----------------------|---------------------------------------------------------|
-| Version               | 1.0.0                                                   |
+| Version               | 1.0.1                                                   |
 | Vendor Products       | Greenbone Community Edition (GCE). Others are untested. |
 | Visible in Splunk Web | No.                                                     |
 
@@ -25,7 +25,7 @@ The **Greenbone Vulnerability Manager Add-on for Splunk** provides index-time, s
 |----------------------------|---------------------------------------------------------|--------------------|
 | greenbone:gsm:scan         | Vulnerability Scan Results (parsed from XML)            | Vulnerabilities    |
 | greenbone:gsad:log         | Greenbone Security Assistant (GSA) logs                 | Authentication     |
-| greenbone:gvmd:log         | Greenbone Vulnerability Manager Daemon (GVMD) logs      | n/a                |
+| greenbone:gvmd:log         | Greenbone Vulnerability Manager Daemon (GVMD) logs      | Change             |
 | greenbone:openvas:log      | OpenVAS Scanner logs                                    | n/a                |
 | greenbone:ospd-openvas:log | OSP Daemon Scanner logs                                 | n/a                |
 
