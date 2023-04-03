@@ -4,9 +4,11 @@
 
 ### About the Greenbone Vulnerability Manager Add-on for Splunk
 
+Release notes can be found on the project **releases** [page](https://github.com/ccloutier-splunk/TA-gvm/releases).
+
 |                       |                                                         |
 |-----------------------|---------------------------------------------------------|
-| Version               | 1.0.1                                                   |
+| Version               | 1.0.2                                                   |
 | Vendor Products       | Greenbone Community Edition (GCE). Others are untested. |
 | Visible in Splunk Web | No.                                                     |
 
